@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f004bd1d-2fcc-4d57-aa0c-a1eac86cc065" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/shopcar1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/shopcar1.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shopcar1.html" beforeDir="false" afterPath="$PROJECT_DIR$/shopcar1.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shopcar1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="229" column="7" selection-start-line="229" selection-start-column="7" selection-end-line="229" selection-end-column="7" />
+            <state relative-caret-position="504">
+              <caret line="253" column="50" lean-forward="true" selection-start-line="253" selection-start-column="50" selection-end-line="253" selection-end-column="50" />
               <folding>
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -30,7 +28,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/shopcar1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
+            <state relative-caret-position="13281">
               <caret line="699" selection-start-line="699" selection-end-line="699" />
             </state>
           </provider>
@@ -62,7 +60,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
-    <option name="width" value="1044" />
+    <option name="width" value="1045" />
     <option name="height" value="645" />
   </component>
   <component name="ProjectView">
@@ -137,11 +135,12 @@
       <workItem from="1564395346341" duration="4841000" />
       <workItem from="1564405225078" duration="6861000" />
       <workItem from="1564482226891" duration="7919000" />
+      <workItem from="1564495500970" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19621000" />
+    <option name="totallyTimeSpent" value="19633000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -197,21 +196,21 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/shopcar1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="699" selection-start-line="699" selection-end-line="699" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shopcar1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="229" column="7" selection-start-line="229" selection-start-column="7" selection-end-line="229" selection-end-column="7" />
+        <state relative-caret-position="504">
+          <caret line="253" column="50" lean-forward="true" selection-start-line="253" selection-start-column="50" selection-end-line="253" selection-end-column="50" />
           <folding>
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/shopcar1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13281">
+          <caret line="699" selection-start-line="699" selection-end-line="699" />
         </state>
       </provider>
     </entry>
