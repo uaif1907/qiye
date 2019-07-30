@@ -10,6 +10,7 @@ a {
 /*头部开始*/
 header{
     width: 100%;
+    display: block;
     height: 96px;
     background: black;
 
@@ -17,21 +18,25 @@ header{
 .headers{
     width: 1200px;
     height: 96px;
+       background-color: black;
     margin: 0 auto;
 }
 .headers-left{
     width: 380px;
     height: 96px;
+       background-color: black;
     float: left;
 }
 .headers .headers-left img{
     width: 210px;
     height: 96px;
+       background-color: black;
 }
 .headers-leftz{
     width: 170px;
     height: 20px;
     display: block;
+       background-color: black;
     float: right;
     border-left: 1px solid #fcfbf9;
     box-sizing: border-box;
@@ -48,9 +53,11 @@ header{
     display: flex;
     justify-content: flex-start;
     padding-top: 38px;
+    background-color: black;
     box-sizing: border-box;
 }
 .headers-zc{
+       background-color: black;
     display: block;
     width: 152px;
     height: 20px;
@@ -64,12 +71,14 @@ header{
     border-left: 1px solid #fcfbf9;
     box-sizing: border-box;
     color: #fcfbf9;
+       background-color: black;
     text-align: center;
 }
 .headers-sjrz{
     width: 102px;
     height: 20px;
     line-height: 20px;
+       background-color: black;
     border-left: 1px solid #fcfbf9;
     box-sizing: border-box;
     color: #fcfbf9;
@@ -98,14 +107,35 @@ nav{
     line-height: 66px;
 }
 .navs-d a{
+      width: 120px;
+    height: 66px;
+    text-align: center;
+    line-height: 66px;
+    display: block;
+    float: left;
     color: #414141;
+}
+.navs-d a div{
+     display: inline-block;
+    width:20px;
+    height:66px;
+    text-align: center;
+    line-height: 66px;
+
 }
 .navs-d i{
     color: #000;
+
+}
+.navs-d a img{
+    display: inline-block;
+    width:15px;
+    height:15px;
+    line-height: 66px;
 }
 /*导航结束*/
 .img1{
-     position: absolute;z-index: 5;top:745px;left:352px;
+     position: relative;z-index: 5;top:653px;left:352px;
 }
 .img1 a img{
     height:65px;width: 160px;
@@ -116,7 +146,7 @@ nav{
     margin:0 auto;
 }
 .img img{
-     width:1519.2px;
+     width:100%;
     height:697px;
 }
 .zuobian
@@ -158,6 +188,8 @@ nav{
 .bg2{
     width:745px;
     height:301px;
+    position:relative;
+    top:150px;
     margin:0 auto;
 }
 .bg2 img{
@@ -168,6 +200,8 @@ nav{
 .bg3{
     width:746px;
     height:676px;
+    position:relative;
+    top:200px;
     margin:0 auto;
 }
 .bg3 img{
