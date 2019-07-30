@@ -1,0 +1,376 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 96px;
+    background-color: #000;
+}
+.header_nk{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    /*background-color: pink;*/
+}
+.header_nk_left{
+    width: 249px;
+    height: 96px;
+    margin-left: 23px;
+    float: left;
+}
+.header_nk_left img{
+    display: block;
+    width: 100%;
+}
+.header_nk_conter{
+    width: 140px;
+    height: 18px;
+    margin-top: 39px;
+    float: left;
+    border-left: 1px solid #fff;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 18px;
+    text-align: center;
+}
+.header_nk_right{
+    width: 330px;
+    height: 100%;
+    float: right;
+}
+.hnr_a1{
+    display: block;
+    height: 18px;
+    margin: 39px 34px 0;
+    color: white;
+    font-size: 16px;
+    line-height: 18px;
+    float: right;
+}
+.hnr_a2{
+    display: block;
+    height: 18px;
+    margin: 39px 3px 0;
+    color: white;
+    font-size: 16px;
+    line-height: 18px;
+    float: right;
+}
+.hnr_a3{
+    display: block;
+    height: 18px;
+    margin: 39px 3px 0;
+    color: white;
+    font-size: 16px;
+    line-height: 18px;
+    float: right;
+}
+nav{
+    width: 100%;
+    height: 110px;
+    background-color: white;
+}
+.nav_nk{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    /*background-color: pink;*/
+}
+.nav_nk_ul{
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+}
+.nav_nk_ul li{
+    height: 18px;
+    line-height: 18px;
+}
+.nav_nk_ul a{
+    color: #080808;
+}
+.nnu_i{
+    color: #dc5dca;
+}
+.nav_nk_div{
+    width: 500px;
+    padding-left: 67px;
+    height: 18px;
+    font-size: 14px;
+    color: #080808;
+    margin-top: -10px;
+}
+.nav_nk_div a{
+    color: #080808;
+}
+.black_line{
+    width: 100%;
+    height: 20px;
+    background-color: black;
+}
+.body{
+    width: 100%;
+    height: 1730px;
+    background-color: #ffffff;
+}
+.body_nk{
+    width: 1200px;
+    height: 100%;
+    margin:0 auto;
+    position: relative;
+}
+.fukuan_nav{
+    width: 1030px;
+    height: 55px;
+    margin-left:52px;
+    padding-top: 65px;
+    /*background-color: #dc5dca;*/
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.fukuan_nav a{
+    color: #676767;
+}
+.fukuan_nav li:nth-child(3) a{
+    color: #e78fda;
+}
+.fukuan_img1{
+    width: 100%;
+    height: 999px;
+    /*background-color: #dc5dca;*/
+    position: relative;
+    padding-top: 139px;
+}
+.paychenggong{
+    width: 831px;
+    height: 187px;
+    box-shadow: rgba(0,0,0,.2) 0 5px 10px;
+    margin:0 auto;
+    background: url("../img/liwenbo/123_03.png");
+}
+.paychenggong_img{
+    width: 675px;
+    height: 540px;
+    background: url("../img/liwenbo/购物2_17.png");
+    position: absolute;
+    left:243px;
+    top:401px;
+}
+.botton{
+    width: 288px;
+    height: 146px;
+    position: absolute;
+    left:400px;
+    bottom:50px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.botton_left,.botton_right{
+    width: 125px;
+    height: 44px;
+    border-radius: 35px;
+    background-color: #109bdb;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 44px;
+    text-align: center;
+}
+.botton_right{
+    background-color: #e27dd3;
+}
+.botton a{
+    color: #ffffff;
+}
+.bottom_shopshow{
+    width: 100%;
+    height: 620px;
+    /*background-color: black;*/
+    position: absolute;
+    bottom:100px;
+}
+.bottom_header{
+    width: 100%;
+    height: 66px;
+    /*background-color: #dc5dca;*/
+    position: relative;
+}
+.bh_word1{
+    width: 500px;
+    height: 24px;
+    font-size: 16px;
+    color: #e996dc;
+}
+.bh_word1 span{
+    color: black;
+}
+.bh_word2{
+    width: 120px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top:0;
+    /*background-color: black;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bh_word3,.bh_word4{
+    width: 46px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #333333;
+    color: #ffffff;
+    line-height: 44px;
+    text-align: center;
+    font-size: 16px;
+}
+.bh_word4{
+    background-color: #e78fda;
+}
+.bottom_footer{
+    width: 100%;
+    height: 554px;
+    /*background-color: #dc5dca;*/
+    display: flex;
+    justify-content: space-between;
+}
+.bottom_footer li{
+    width: 344px;
+    height: 100%;
+    padding: 0 12px;
+    /*background-color: black;*/
+    position: relative;
+}
+.bottom_footer img{
+    width: 344px;
+    height: 322px;
+}
+.bottom_wenzi{
+    width: 100%;
+    height: 50px;
+    padding-top: 17px;
+    line-height: 50px;
+    font-size: 26px;
+    border-left: 10px;
+    box-sizing: border-box;
+    color: #333333;
+}
+.bottom_wenzi2{
+    width: 100%;
+    height: 40px;
+    border-left: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #333333;
+    line-height: 40px;
+}
+.xiaohengxian{
+    width: 331px;
+    height: 3px;
+    margin: 20px 0 0 8px;
+    border-radius: 20px;
+    background-color: #e78fda;
+}
+.xiaohengxian1{
+    width: 51px;
+    height: 7px;
+    background-color: #e78fda;
+    border-radius: 20px;
+    margin-top: -2px;
+    float: left;
+}
+.shuzidjgajdk{
+    width: 150px;
+    height: 40px;
+    padding-top: 35px;
+    padding-left: 7px;
+    /*background-color: #ffffff;*/
+    line-height: 40px;
+    color: #1d1d1d;
+}
+.shuzidjgajdk span{
+    color: #fd1919;
+}
+.dsagsdfg_botton{
+    width: 128px;
+    height: 39px;
+    border-radius: 35px;
+    background-color: #e78fda;
+    position: absolute;
+    right:15px;
+    bottom:30px;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 39px;
+    text-align: center;
+}
+.pcg_word1{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+    padding-top: 46px;
+}
+.pcg_word2{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+    padding-top: 20px;
+}
+.pcg_word2 span{
+    color: #5a7aab;
+}
+.pcg_word3{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+}
+.bh_word4 i{
+    display: block;
+    transform: rotate(180deg);
+}
+footer{
+    width: 100%;
+    height: 427px;
+    background-color: #0a0508;
+}
+.footer_top{
+    width: 692px;
+    height: 114px;
+    padding: 0 150px;
+    /*background-color: #dc5dca;*/
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_top li{
+    height: 18px;
+    font-size: 16px;
+    line-height: 18px;
+}
+.footer_top a{
+    color: #6c686a;
+}
+.footer_bottom{
+    width: 100%;
+    height: 313px;
+    background:url("../img/liwenbo/bian.png") no-repeat -260px;
+}
