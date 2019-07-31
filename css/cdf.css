@@ -8,6 +8,11 @@ a{
 
     text-decoration:none;
 }
+.Hea{
+    width: 100%;
+    height: auto;
+    background: #000000;
+}
 .header1{
     height: 96px;
     width: 272px;
@@ -28,12 +33,15 @@ a{
     margin-top: 38px;
 }
 .header-right{
-    height: 20px;
+    height: auto;
     font-size: 20px;
     color: white;
     margin-right: 56px;
     float: right;
     width: 314px;
+}
+.header-right a{
+    color: white;
 }
 .header3{
     display: inline-block;
@@ -45,9 +53,12 @@ a{
     border-right: 1px solid white;
       margin-top: 38px;
 }
+.header3 a{
+    color: white;
+}
 .nav{
     width: 1200px;
-    height: 122px;
+    height: auto;
     margin: 0 auto;
 }
 .nav-top{
@@ -74,10 +85,11 @@ a{
 }
 .nav-bottom{
     width: 364px;
-    height: 66px;
-    color: #9D9D9D;
-    font-size: 12px;
+    height: auto;
+    color: #5a5a5a;
+    font-size: 16px;
     margin-left: 68px;
+    margin-bottom: 32px;
 }
 .main {
     width: 1200px;
@@ -127,6 +139,7 @@ width: 154px!important;
 .main-img{
     width: 116px;
     height: 216px;
+    margin: 0 auto;
 }
 .main-img img{
     width: 100%;
@@ -166,17 +179,18 @@ width: 154px!important;
     float: right;
 }
 .big-main span{
-    color: #515151;
-    font-size: 24px
+    color: #373737;
+    font-size: 18px;
     margin: 0 auto;
     margin-bottom: 24px;
 
 }
 .big-main p{
-       color: #787878;
+       color: #8e8e8e;
     font-size: 18px;
         margin: 0 auto;
     margin-bottom: 24px;
+    margin-top: 24px;
 }
 .jgk{
     width: 326px;
@@ -184,35 +198,53 @@ width: 154px!important;
     background: #ECEDEF;
     margin-bottom: 24px;
 }
+.jgk1{
+    height: 36px;
+
+}
+.jgk2{
+    height: 44px;
+
+}
 .jgk1 p{
     display: inline-block;
-    font-size: 12px;
-    margin-right: 34px;
+    font-size: 16px;
+    margin-right: 42px;
+      margin-bottom: 0;
+    margin-top: 18px;
+    margin-left: 10px;
+
 }
 .jgk1 span{
     color: #FB1616;
-    font-size: 18px;
+    font-size: 24px;
+
 }
 .jgk1 em{
     color: #1D1D1D!important;
 }
 
 .jgk2 p{
- font-size: 12px;
-    width: 58px!important;
+ font-size: 16px;
+    width: auto;
     display: inline-block;
+    margin-top: 11.2px;
+     margin-right: 20px;
+    margin-left: 10px;
 }
 .cm{
     width: 306px;
-    height: 152px;
+    height: 80px;
+    margin-bottom: 24px;
 }
 .cm p{
     width: 40px;
     float: left;
     height:  auto;
-    font-size: ;
+    font-size: 18px;
     color: #7F7F7F;
    margin-bottom: 0;
+    margin-top: -8px;
 }
 .chima-box{
     float: right;
@@ -228,9 +260,11 @@ width: 154px!important;
     width: 80px !important;
     height: 24px;
     border: 1px dashed #6C6C6C;
-    font-size: 14px;
+    font-size: 12px;
     color: #868686;
     margin-right: 0;
+text-align: center;
+    line-height: 24px;
 }
 .chima:nth-child(4){
     border: 1px solid #333;
@@ -242,15 +276,15 @@ width: 154px!important;
 .color{
     width: 306px;
     height: 168px;
-    margin-bottom: 46px;
+    margin-bottom: 50px;
 }
 .color p{
     width: 40px;
     float: left;
     height:  auto;
-    font-size: ;
+    font-size: 18px;
     color: #7F7F7F;
-   margin-bottom: 0;
+   margin-top: -8px
 }
 .Color-img{
      float: right;
@@ -272,8 +306,9 @@ width: 154px!important;
     height: 100%;
 }
 .zhong{
-    height: 112px;
+    height: 90px;
        width: 214px;
+    margin-bottom: 90px;
 }
 .shu{
 width: 172px;
@@ -285,9 +320,9 @@ width: 172px;
     display: block;
     float: left;
     height:  auto;
-    font-size: ;
+    font-size: 18px;
     color: #7F7F7F;
-   margin-bottom: 0 !important;
+   margin-top: -8px !important;
 
 }
 .box-one{
@@ -296,13 +331,17 @@ width: 172px;
     border: 1px solid #BFBFBF;
     float: left;
 }
-.onebox{
+input{
     width: 50px;
     height: 88px;
+    border: 0;
+    /*border-bottom: 1px solid ;*/
     border-right: 1px solid #BFBFBF;
+    box-sizing: border-box;
     text-align: center;
     line-height: 88px;
     float: left;
+    outline:medium;
 }
 .sfa{
     width: 28px;
@@ -366,15 +405,14 @@ width: 172px;
 }
 .xian{
     height: 1px;
-    width: 1090px;
+    width: 1066px;
     background: #BCBCBC;
-    margin-left: 219.6px;
-      margin-top: 20px;
+   margin: 20px auto;
 }
 /*商品详情开始*/
 .content{
     width: 1200px;
-    height: auto;
+    height: 3036px;
     margin: 0 auto;
 }
 .content-left{
@@ -399,7 +437,7 @@ width: 172px;
     width: 1px;
     height: 8px;
     align-self: center;
-    background: #E3E3E3;
+    background: #a3a3a3;
 }
 .bzd{
     width: 288px;
@@ -410,7 +448,7 @@ width: 172px;
 }
 .bzd p{
     margin: 0;
-    color:  #E3E3E3;
+    color:  #848484;
     font-size: 12px;
 }
 .big-tie{
@@ -465,8 +503,8 @@ border: 1px solid #B6B5B5;
 .shimao{
     width: 594px;
     height: 74px;
-    color: #A4A4A4;
-    font-size: 16px;
+    color: #383838;
+    font-size: 18px;
     margin: 0 auto;
     margin-bottom: 44px;
 }
@@ -580,6 +618,12 @@ display: flex;
     height: 100%;
 }
 /*商品详情结束*/
+
+.FOOR{
+    width: 100%;
+    height: 430pxr;
+    background: black;
+}
 footer{
     width: 1200px;
     height: 430px;
