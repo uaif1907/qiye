@@ -88,8 +88,8 @@ header{
 /*导航开始*/
 .body2{
     background-color: #171719;
-    width:1519.2px;
-    height: 4900px;
+    width:100%;
+    height: 4500px;
     margin: 0 auto;
 }
 nav{
@@ -146,14 +146,19 @@ nav{
     z-index: 5;
     top:746px;
     left:352px;
+
 }
 .img1 a img{
     position:absolute;
-    height:65px;width: 160px;
+    bottom:150px;
+    margin-left: 0px;
+    /*left:500px;*/
+    height:65px;width: 140px;
 }
 .img{
-    width:1519.2px;
+    width:100%;
     height:697px;
+    position: relative;
     margin:0 auto;
 }
 .img img{
@@ -165,27 +170,28 @@ nav{
     width:29px;
     height: 29px;
     position: absolute;
-    left:1162px;
-    top:830px;
+    right:250px;
+    bottom:50px;
 
 }
-.zuobian img{
-    width:29px;
-    height: 29px;
-    /*position: absolute;*/
+.zuobian a{
+    display: block;
+    font-size: 50px;
+    color: white;
 }
+.youbian a{
+    display: block;
+    font-size: 50px;
+    color: white;
+}
+
 .youbian{
     width:29px;
     height: 29px;
     position: absolute;
-    left:1220px;
-    top:830px;
+    right:200px;
+    bottom:50px;
 
-}
-.youbian img{
-     width:29px;
-    height: 29px;
-    /*position: absolute;*/
 }
 .img2{
     width: 1200px;
@@ -193,44 +199,53 @@ nav{
     margin: 0 auto;
 }
 .img2 img{
-     width: 1200px;
-    height: 310px;
+     width: auto;
+    height: 490px;
+    display: block;
+    margin:  0 auto;
 }
-.bg2{
-    width:745px;
-    height:301px;
-    position:relative;
-    top:150px;
-    margin:0 auto;
-}
+.bg2 {
+    width: 100%;
+
+    position: relative;
+    top: 100px;
+    height:490px;
+    z-index: 9;
+    margin: 0 auto;
+}/*}*/
 .bg2 div{
-    width:176px;
-    height:63px;
-    position:absolute;
-    top:50px;
+   position: relative;
+    z-index: 9;
+    /*height:655px;*/
+    margin: 0 auto;
+    width: 741px;
 }
 .bg2 div img{
-    width:120px;
-    height:43px;
-    position:absolute;
-    top:180px;
-    left:550px;
+    /*position: relative;*/
+    height:auto;
+    z-index: 9;
+    margin: 0 auto;
+    width: 741px;
 }
 
-.bg2 img{
-     width:745px;
-    height:301px;
-    margin:0 auto;
+
+.bg2 div a img{
+    position: relative;
+    /*margin-right: 50px;*/
+    /*z-index: 9;*/
+    top:-56px;
+    right:-570px;
+    width: 120px;
 }
 .bg3{
     width:746px;
     height:676px;
     position:relative;
-    top:200px;
+    top:10px;
     margin:0 auto;
 }
 .bg3 img{
-      width:746px;
+      width:auto;
     height:676px;
     margin:0 auto;
 }
@@ -239,7 +254,7 @@ nav{
     height:624px;
     margin:0 auto;
     position:relative;
-    top:200px;
+    top:30px;
 }
 .bg4 img{
       width:747px;
@@ -251,7 +266,7 @@ nav{
     width:746px;
     height:125px;
     position: relative;
-    top:200px;
+    top:30px;
     margin:0 auto;
 }
 .bg5 img{
@@ -261,7 +276,7 @@ nav{
 }
 .bg6{
     position: relative;
-    top:200px;
+    top:30px;
     width:750px;
     height:379px;
     margin:0 auto;
@@ -272,22 +287,22 @@ nav{
     margin:0 auto;
 }
 .bg6 div{
-    width:176px;
+    width:180px;
     height:63px;
     position:absolute;
     top:50px;
 }
 .bg6 div img{
-    width:120px;
+    width:130px;
     height:43px;
     position:absolute;
     top:210px;
-    left:48px;
+    left:46px;
 }
 .bg7{
     position:relative;
     width:747px;
-    top: 200px;
+    top: 30px;
     height:514px;
     margin:0 auto;
 }
@@ -311,7 +326,7 @@ nav{
 }
 .bg8{
     position:relative;
-    top:200px;
+    top:30px;
     margin:0 auto;
     width:239px;
     height:108px;
@@ -323,14 +338,15 @@ nav{
 }
 .bg9{
     position:relative;
-    top:200px;
+    top:30px;
+    overflow: hidden;
     width:1200px;
     height:326px;
     margin:0 auto;
 }
 footer{
     position:relative;
-    top:300px;
+    top:30px;
     width:100%;
     height:430px;
 

@@ -133,11 +133,12 @@ nav{
     font-size: 16px;
     display: flex;
     justify-content: space-between;
+    color: #676767;
 }
 .fukuan_nav a{
     color: #676767;
 }
-.fukuan_nav li:nth-child(3) a{
+.fukuan_nav li:nth-child(4) a{
     color: #e78fda;
 }
 .fukuan_img1{
@@ -368,6 +369,9 @@ footer{
 }
 .footer_top a{
     color: #6c686a;
+}
+.footer_top a:hover{
+    color: #ffffff;
 }
 .footer_bottom{
     width: 100%;
