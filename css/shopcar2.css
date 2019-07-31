@@ -369,6 +369,9 @@ main{
     color:#fff;
     margin-top:30px ;
 }
+.queren-dindan a{
+    color: white!important;
+}
 .right-section{
     width:350px;
     height:1100px;
