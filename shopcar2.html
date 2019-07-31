@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/shopcar2.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_1322346_bwmxsym98uu.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>shopcar2</title>
+</head>
+<body>
+<!--头部开始-->
+<header>
+    <div class="headers">
+        <div class="headers-left">
+            <img src="./img/shopcar2-img/logo.png" alt="">
+            <span class="headers-leftz">全球潮牌优选</span>
+        </div>
+        <div class="headers-right">
+            <a href="" class="headers-zc">注册 Trend CL</a>
+            <a href="" class="headers-dl">登录</a>
+            <a href="" class="headers-sjrz">商家入驻</a>
+        </div>
+    </div>
+</header>
+<!--头部结束-->
+<!--导航开始-->
+<nav>
+    <ul class="navs">
+        <li class="navs-d"><a href="">首页</a></li>
+        <li class="navs-d"><a href="">全部</a></li>
+        <li class="navs-d"><a href="">新品</a></li>
+        <li class="navs-d"><a href="">系列</a></li>
+        <li class="navs-d">
+            <i class="iconfont icon-gouwudai"></i>
+            <a href="">购物袋</a>
+        </li>
+        <li class="navs-d">
+            <i class="iconfont icon-sousuo"></i>
+            <a href="">搜索</a>
+        </li>
+        <li class="navs-d">
+            <i class="iconfont icon-renwu"></i>
+            <a href="">个人中心</a>
+        </li>
+    </ul>
+</nav>
+<div class="nav-di"><a href="">首页   </a>&nbsp;&nbsp;/填写并核对订单信息</div>
+<!--导航结束-->
+<div class="black-tiao"></div>
+<div class="nav-dindan">
+    <ul class="dindan-daohang">
+        <li class="dindan-daohang-wenzi">
+            <i class="iconfont icon-gouwudai"></i>
+            <a href="">购物袋&nbsp;</a>/&nbsp;SC</li>
+        <li class="dindan-daohang-wenzi">
+            <i class="iconfont icon-seiyw33"></i>
+            <a href="">确认订单&nbsp;</a>/&nbsp;COO</li>
+        <li class="dindan-daohang-wenzi">
+            <i class="iconfont icon-fukuan"></i>
+            <a href="">付款方式&nbsp;</a>/&nbsp;PM</li>
+        <li class="dindan-daohang-wenzi">
+            <i class="iconfont icon-seiyw33"></i>
+            <a href="">订单完成&nbsp;</a>/&nbsp;OF</li>
+    </ul>
+</div>
+<main>
+    <div class="left-section">
+        <div class="ps-address">
+            <span class="ps-add">配送地址</span>
+            <a href="" class="new-add">新增地址+</a>
+        </div>
+        <table class="table table-striped">
+            <tr>
+                <td style="text-align:center;dispalay:flex;flex-direcotion:colunm;justify-content:space-around">
+                    <input type="radio" name="adress" id="zhangsan" checked="zhangsan" style="margin-right:30px;">
+                    <label for="zhangsan">[默认]张三</label>
+                </td>
+                <td>
+                    山西省太原市小店区高新街菜鸟驿站
+                    <br>
+                    邮编:033400
+                    <br>
+                    电话:15236987452
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">
+                    <input type="radio" name="adress" id="wuyu" style="margin-right:40px;">
+                    <label for="zhangsan">无语的人</label>
+                </td>
+                <td>
+                    山西省太原市小店区北格镇
+                    <br>
+                    邮编:033400
+                    <br>
+                    电话:15236987452
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">收起地址<i class="iconfont icon-shouqi_huaban"></i></td>
+                <td></td>
+            </tr>
+        </table>
+        <div class="ps-address">
+            <span class="ps-add new-bianse">新增地址+</span>
+            <a href="" class="new-add new-bianse2">配送地址</a>
+        </div>
+        <div class="shouhuo">
+            <div class="zuoduiqi">
+                <td class="form-group" style="width:140px;">
+                    <label for="shouhuoren">收货人</label><br>
+                    <input type="text" class="" id="shouhuoren" style="width:100px;">
+                </td>
+            </div>
+            <div class="zuoduiqi kongbai">
+                <td class="form-group">
+                    <label for="phone-number">手机号码</label><br>
+                    <input type="text" class="" id="phone-number" style="width:200px;">
+                </td>
+            </div>
+        </div>
+        <div class="xuanze">
+            <div class="zuoduiqi">
+                <label for="province">省</label><br>
+                <select name="shengfen" id="province" style="width:100px;">
+                    <option value="">请选择省份</option>
+                    <option value="">山西省</option>
+                    <option value="">山东省</option>
+                    <option value="">陕西省</option>
+                </select>
+            </div>
+            <div class="zuoduiqi kongbai">
+                <label for="province">市</label><br>
+                <select name="shengfen" id="province" style="width:100px;">
+                    <option value="">请选择市</option>
+                    <option value="">太原市</option>
+                    <option value="">吕梁市</option>
+                    <option value="">大同市</option>
+                </select>
+            </div>
+            <div class="zuoduiqi kongbai">
+                <label for="province">区</label><br>
+                <select name="shengfen" id="province" style="width:100px;">
+                    <option value="">请选择区</option>
+                    <option value="">小店区</option>
+                    <option value="">迎泽区</option>
+                    <option value="">杏花岭区</option>
+                </select>
+            </div>
+            <div class="xiangxi">
+                <textarea name="" id="" cols="53" rows="1.2" style="resize:none;" placeholder="请填入详细地址"></textarea>
+            </div>
+        </div>
+        <table >
+            <tr >
+                <td>
+                    <label for="mail-num">邮政编码</label><br>
+                    <input type="text" class="" id="mail-num" style="width:150px;">
+                </td>
+            </tr>
+        </table>
+        <table style="margin:10px 0 0 5px;">
+            <tr style="font-size:16px;">
+                <td>
+                    <input type="checkbox">设为默认地址
+                </td>
+            </tr>
+            <tr style="font-size:16px;">
+                <td>
+                    <input type="checkbox">保存到我的地址
+                </td>
+            </tr>
+        </table>
+        <div class="return-add">
+            <div class="fanhui">返回</div>
+            <div class="shiyong">使用该地址</div>
+        </div>
+        <div class="peisong-wenzi">配送方式</div>
+        <div class="peisong-fangshi">
+            <input type="radio" style="margin-right:30px;">普通达:预计48小时发货，除特别通知外
+            <span class="mian-yunfei">免运费</span>
+        </div>
+        <div class="peisong-wenzi">支付方式</div>
+        <div class="zhifu-fangshi">
+            <input type="radio" name="zhifu" id="zhifubao" style="margin-right:10px;"><i class="iconfont icon-umidd17"></i>支付宝
+            <input type="radio" name="zhifu"  id="weixinzhifu" style="margin:0 10px 0 100px;"><i class="iconfont icon-weixinzhifu"></i>微信支付
+        </div>
+        <div class="fapiao">
+            <table>
+            <tr style="font-size:16px;">
+                <td>
+                    <input type="checkbox">发票
+                </td>
+            </tr>
+            <tr style="font-size:16px;">
+                <td>
+                    <input type="checkbox">我接受Trent CL 商城使用条款和隐私声明
+                </td>
+            </tr>
+        </table>
+        </div>
+        <div class="queren-dindan">确认订单</div>
+    </div>
+    <div class="right-section">
+        <div class="zhaiyao-wenzi">订单摘要: <span>共5件</span></div>
+        <div class="dindan-zhaiyao">
+            <img src="./img/shopcar2-img/kuansong.png" alt="">
+        </div>
+        <div class="help">
+            <ul>
+                <span>帮助</span>
+                <li>关于订单</li>
+                <li>关于支付</li>
+                <li>物流配送原则</li>
+                <li>退换货原则</li>
+            </ul>
+        </div>
+        <div class="fukuai-fangshi">我们接受如下付款方式</div>
+        <div class="fukuan-tu">
+            <img src="./img/shopcar2-img/zhifubao.png" alt=""><img src="./img/shopcar2-img/weixinzhifu.png" alt="">
+        </div>
+    </div>
+</main>
+<!--底部开始-->
+<footer>
+    <div class="footers">
+        <ul class="footers-top">
+            <li>
+                <a href="" class="hy">航运</a>
+            </li>
+            <li>
+                <a href="">交换和退货</a>
+            </li>
+            <li>
+                <a href="">客户关环</a>
+            </li>
+            <li>
+                <a href="">销售条款和条件</a>
+            </li>
+            <li>
+                <a href="">可访问性</a>
+            </li>
+        </ul>
+        <div class="footers-zt">
+            <div class="footers-s">
+                Subscribe to us Mail box
+            </div>
+            <sapn class="footers-dy">订阅我们的通讯<pn>
+            <br>
+            <sapn class="footers-dy">电子邮箱地址<pn>
+        </div>
+        <div class="footers-gywm">关于我们</div>
+        <div class="footers-bq"> 2019 由Trend  CL.技术开发版权所有</div>
+    </div>
+</footer>
+<!--底部结束-->
+
+</body>
+
+
+
+
+
+</html>

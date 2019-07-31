@@ -10,6 +10,7 @@ a {
 /*头部开始*/
 header{
     width: 100%;
+    display: block;
     height: 96px;
     background: black;
 
@@ -17,21 +18,25 @@ header{
 .headers{
     width: 1200px;
     height: 96px;
+       background-color: black;
     margin: 0 auto;
 }
 .headers-left{
     width: 380px;
     height: 96px;
+       background-color: black;
     float: left;
 }
 .headers .headers-left img{
     width: 210px;
     height: 96px;
+       background-color: black;
 }
 .headers-leftz{
     width: 170px;
     height: 20px;
     display: block;
+       background-color: black;
     float: right;
     border-left: 1px solid #fcfbf9;
     box-sizing: border-box;
@@ -48,9 +53,11 @@ header{
     display: flex;
     justify-content: flex-start;
     padding-top: 38px;
+    background-color: black;
     box-sizing: border-box;
 }
 .headers-zc{
+       background-color: black;
     display: block;
     width: 152px;
     height: 20px;
@@ -64,12 +71,14 @@ header{
     border-left: 1px solid #fcfbf9;
     box-sizing: border-box;
     color: #fcfbf9;
+       background-color: black;
     text-align: center;
 }
 .headers-sjrz{
     width: 102px;
     height: 20px;
     line-height: 20px;
+       background-color: black;
     border-left: 1px solid #fcfbf9;
     box-sizing: border-box;
     color: #fcfbf9;
@@ -77,6 +86,12 @@ header{
 }
 /*头部结束*/
 /*导航开始*/
+.body2{
+    background-color: #171719;
+    width:1519.2px;
+    height: 4900px;
+    margin: 0 auto;
+}
 nav{
     width: 100%;
     height: 66px;
@@ -98,16 +113,42 @@ nav{
     line-height: 66px;
 }
 .navs-d a{
+      width: 120px;
+    height: 66px;
+    display: block;
+    text-align: center;
+    line-height: 66px;
+    /*display: block;*/
+    float: left;
     color: #414141;
+}
+.navs-d a div{
+     display: inline-block;
+    width:20px;
+    height:66px;
+    text-align: center;
+    line-height: 66px;
+
 }
 .navs-d i{
     color: #000;
+
+}
+.navs-d a img{
+    display: inline-block;
+    width:15px;
+    height:15px;
+    line-height: 66px;
 }
 /*导航结束*/
 .img1{
-     position: absolute;z-index: 5;top:745px;left:352px;
+     position: absolute;
+    z-index: 5;
+    top:746px;
+    left:352px;
 }
 .img1 a img{
+    position:absolute;
     height:65px;width: 160px;
 }
 .img{
@@ -116,7 +157,7 @@ nav{
     margin:0 auto;
 }
 .img img{
-     width:1519.2px;
+     width:100%;
     height:697px;
 }
 .zuobian
@@ -158,8 +199,24 @@ nav{
 .bg2{
     width:745px;
     height:301px;
+    position:relative;
+    top:150px;
     margin:0 auto;
 }
+.bg2 div{
+    width:176px;
+    height:63px;
+    position:absolute;
+    top:50px;
+}
+.bg2 div img{
+    width:120px;
+    height:43px;
+    position:absolute;
+    top:180px;
+    left:550px;
+}
+
 .bg2 img{
      width:745px;
     height:301px;
@@ -168,6 +225,8 @@ nav{
 .bg3{
     width:746px;
     height:676px;
+    position:relative;
+    top:200px;
     margin:0 auto;
 }
 .bg3 img{
@@ -179,6 +238,8 @@ nav{
     width:747px;
     height:624px;
     margin:0 auto;
+    position:relative;
+    top:200px;
 }
 .bg4 img{
       width:747px;
@@ -189,6 +250,8 @@ nav{
 
     width:746px;
     height:125px;
+    position: relative;
+    top:200px;
     margin:0 auto;
 }
 .bg5 img{
@@ -197,6 +260,8 @@ nav{
     margin:0 auto;
 }
 .bg6{
+    position: relative;
+    top:200px;
     width:750px;
     height:379px;
     margin:0 auto;
@@ -206,8 +271,23 @@ nav{
     height:379px;
     margin:0 auto;
 }
+.bg6 div{
+    width:176px;
+    height:63px;
+    position:absolute;
+    top:50px;
+}
+.bg6 div img{
+    width:120px;
+    height:43px;
+    position:absolute;
+    top:210px;
+    left:48px;
+}
 .bg7{
+    position:relative;
     width:747px;
+    top: 200px;
     height:514px;
     margin:0 auto;
 }
@@ -215,4 +295,101 @@ nav{
       width:747px;
     height:514px;
     margin:0 auto;
+}
+.bg7 div{
+    width:176px;
+    height:63px;
+    position:absolute;
+    top:50px;
+}
+.bg7 div img{
+    width:145px;
+    height:53px;
+    position:absolute;
+    top:302px;
+    left:115px;
+}
+.bg8{
+    position:relative;
+    top:200px;
+    margin:0 auto;
+    width:239px;
+    height:108px;
+}
+.bg8 img{
+    margin:0 auto;
+    width:239px;
+    height:108px;
+}
+.bg9{
+    position:relative;
+    top:200px;
+    width:1200px;
+    height:326px;
+    margin:0 auto;
+}
+footer{
+    position:relative;
+    top:300px;
+    width:100%;
+    height:430px;
+
+}
+.f1{
+    height:122px;
+    width:650px;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    line-height: 122px;
+    text-align: center;
+    justify-content: space-between;
+}
+.f1 div{
+    color:#a3a0a0;
+    width:140px;
+    font-size: 18px;
+}
+.f1 div a{
+    color:#a3a0a0;
+}
+.f2{
+    width:450px;
+    margin:0 auto;
+    height:150px;
+    padding-top:50px;
+    text-align: center;
+    border: 1px solid #363234;
+}
+.f2 p{
+    height:25px;
+    margin:0 auto;
+    display:block;
+    line-height: 25px;
+    font-size: 15px;
+    color: #4c4a4b;
+}
+.div{
+    width:150px;
+    height: 14px;
+    margin:0 auto;
+    top:150px;
+}
+.f3{
+    height:100px;
+    color:#a3a0a0;
+    font-size: 14px;
+    margin:0 auto;
+    text-align: center;
+    line-height: 100px;
+    width:1200px;
+}
+.f4{
+    height:100px;
+    color:#a3a0a0;
+    font-size: 14px;
+    margin:0 auto;
+    text-align: center;
+    line-height: 100px;
+    width:1200px;
 }
