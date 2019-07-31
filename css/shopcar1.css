@@ -68,6 +68,26 @@ header{
     text-align: left;
     line-height: 20px;
     float: right;
+    position: relative;
+}
+.dl{
+    display: block;
+    width: 36px;
+    height: 100%;
+    float: left;
+    /*background-color: red;*/
+    position: absolute;
+    top: 0;
+}
+.zc{
+    display: block;
+    width: 36px;
+    height: 100%;
+    float: left;
+    /*background-color: ;*/
+    position: absolute;
+    top: 0;
+    left: 42px;
 }
 .dzh{
     width: 90px;
@@ -142,7 +162,17 @@ section{
     font-size: 18px;
     /*background-color: rebeccapurple;*/
     color: #8d8d8d;
-    cursor: pointer;
+    position: relative;
+}
+.gwd{
+    display: block;
+    width: 120px;
+    height: 30px;
+    /*background-color: red;*/
+    float: left;
+    position: absolute;
+    top: 55px;
+    left: 90px;
 }
 .new{
     color: #e176d2;
@@ -177,7 +207,6 @@ section{
     margin-top: 27px;
     margin-left: 10px;
     float: left;
-    cursor: pointer;
 }
 .sp{
     display: block;
@@ -188,7 +217,6 @@ section{
     margin-top: 27px;
     margin-left: 55px;
     float: left;
-    cursor: pointer;
 }
 .sl{
     display: block;
@@ -199,7 +227,6 @@ section{
     margin-top: 27px;
     margin-left: 380px;
     float: left;
-    cursor: pointer;
 }
 .dj{
     display: block;
@@ -210,7 +237,6 @@ section{
     margin-top: 27px;
     margin-left: 56px;
     float: left;
-    cursor: pointer;
 }
 .xj{
     display: block;
@@ -220,7 +246,6 @@ section{
     line-height: 20px;
     margin-top: 27px;
     float: left;
-    cursor: pointer;
 }
 .cz{
     display: block;
@@ -230,7 +255,6 @@ section{
     line-height: 20px;
     margin-top: 27px;
     float: left;
-    cursor: pointer;
 }
 .yifu{
     width: 1200px;
@@ -311,8 +335,19 @@ section{
     width: 80px;
     height: 35px;
     margin: 0 auto;
+    /*background-color: #e5e5e5;*/
+    /*border-radius: 25px;*/
+    /*color: #4e4e4e;*/
+}
+.slxkbox .srsl{
+    width: 80px;
+    height: 35px;
     background-color: #e5e5e5;
     border-radius: 25px;
+    color: #4e4e4e;
+    text-align: center;
+    outline:medium;
+    border:none;
     color: #4e4e4e;
 }
 .leftk{
@@ -480,6 +515,14 @@ section{
     font-size: 20px;
     text-align: center;
     color: #e176d2;
+    position: relative;
+}
+.ank{
+    width: 165px;
+    height: 55px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .bigbox{
     width: 1200px;
