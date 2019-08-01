@@ -179,28 +179,31 @@
         </div>
         <div class="peisong-wenzi">配送方式</div>
         <div class="peisong-fangshi">
-            <input type="radio" class="danxuan-geshi" style="margin-right:30px;"><label for="">普通达:预计48小时发货，除特别通知外</label>
+            <input type="radio" class="putongda" id="simple-da">
+            <label for="simple-da">普通达:预计48小时发货，除特别通知外</label>
             <span class="mian-yunfei">免运费</span>
         </div>
         <div class="peisong-wenzi">支付方式</div>
         <div class="zhifu-fangshi">
-            <input type="radio" class="danxuan-geshi" name="zhifu" id="zhifubao" style="margin-right:10px;">
-            <i class="iconfont icon-umidd17"></i>
-            <label for="zhifubao">支付宝</label>
-            <input type="radio" class="danxuan-geshi" name="zhifu"  id="weixinzhifu" style="margin:0 10px 0 100px;">
-            <i class="iconfont icon-weixinzhifu"></i>
-            <label for="weixinzhifu">微信支付</label>
+            <input type="radio" class="zhifu-geshi" name="zhifu" id="zhifubao">
+            <label for="zhifubao" style="margin-right:100px;">
+                <i class="iconfont icon-umidd17"></i>支付宝
+            </label>
+            <input type="radio" class="zhifu-geshi" name="zhifu"  id="weixinzhifu">
+            <label for="weixinzhifu">
+                <i class="iconfont icon-weixinzhifu"></i>微信支付
+            </label>
         </div>
         <div class="fapiao">
             <table>
             <tr style="font-size:16px;">
                 <td>
-                    <input type="checkbox">发票
+                    <input type="checkbox" class="check-box"> <label for="" style="margin-left:20px;">发票</label>
                 </td>
             </tr>
             <tr style="font-size:16px;">
                 <td>
-                    <input type="checkbox">我接受Trent CL 商城使用条款和隐私声明
+                    <input type="checkbox" class="check-box"> <label for="" style="margin-left:20px;">我接受Trent CL 商城使用条款和隐私声明</label>
                 </td>
             </tr>
         </table>

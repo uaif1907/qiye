@@ -153,7 +153,7 @@ main{
 }
 .left-section{
     width:800px;
-    height:1100px;
+    height:1200px;
     float:left;
 }
 .danxuan-geshi{
@@ -283,24 +283,25 @@ main{
     float:left;
     margin-top:9px;
 }
-.check-box{
-    display: inline-block;
+.check-box[type="checkbox"]{
     -webkit-appearance:none;
     width:20px;
     height:20px;
-    vertical-align: middle;
-    text-indent: .15em;
-    line-height: 1;
-    background:#fff;
     border:1px solid #A3A2A3;
-
-    background-clip: content-box;
-    padding: .2em;
+    outline:none;
 }
+.check-box[type="checkbox"]:checked{
+    background-color:#a3a2a3;
+    background-clip:content-box;
+    padding:.2em;
+    outline:none;
+}
+
 .shezhi-address{
     width:300px;
     height:60px;
     line-height:60px;
+    border:1px solid #fff;
 }
 .return-add{
     width:400px;
@@ -344,6 +345,28 @@ main{
     border:1px solid #000;
     background:#F9F9F9;
 }
+.putongda{
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+.putongda[type="radio"] + label::before {
+    content: "\a0"; /*不换行空格*/
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    width: 1em;
+    height: 1em;
+    margin-right: .4em;
+    border-radius: 50%;
+    border: 1px solid #E78FDA;
+    text-indent: .15em;
+    line-height: 1;
+}
+.putongda[type="radio"]:checked + label::before {
+    background-color: #E78FDA;
+    background-clip: content-box;
+    padding: .2em;
+}
 .mian-yunfei{
     float:right;
     margin-right:20px;
@@ -356,6 +379,28 @@ main{
     padding-left:20px;
     border:1px solid #000;
     background:#F9F9F9;
+}
+.zhifu-geshi{
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+.zhifu-geshi[type="radio"] + label::before {
+    content: "\a0"; /*不换行空格*/
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    width: 1em;
+    height: 1em;
+    margin-right: .4em;
+    border-radius: 50%;
+    border: 1px solid #E78FDA;
+    text-indent: .15em;
+    line-height: 1;
+}
+.zhifu-geshi[type="radio"]:checked + label::before {
+    background-color: #E78FDA;
+    background-clip: content-box;
+    padding: .2em;
 }
 .fapiao{
     margin-top:30px;
