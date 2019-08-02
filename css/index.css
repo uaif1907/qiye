@@ -18,12 +18,15 @@ header{
 .headers{
     width: 1200px;
     height: 96px;
+    overflow: hidden;
        background-color: black;
     margin: 0 auto;
 }
 .headers-left{
     width: 380px;
     height: 96px;
+    display: block;
+    /*padding-left: 30px;*/
        background-color: black;
     float: left;
 }
@@ -50,23 +53,28 @@ header{
     width: 400px;
     height: 96px;
     float: right;
-    display: flex;
-    justify-content: flex-start;
-    padding-top: 38px;
+    line-height: 96px;
+    padding-top: 40px;
+    /*display: flex;*/
+    padding-right:30px;
+    /*justify-content:space-around;*/
+    /*padding-top: 38px;*/
     background-color: black;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
 }
 .headers-zc{
        background-color: black;
     display: block;
     width: 152px;
     height: 20px;
+    float: right;
     line-height: 20px;
     color: #fcfbf9;
 }
 .headers-dl{
     width: 74px;
     height: 20px;
+   float: right;
     line-height: 20px;
     border-left: 1px solid #fcfbf9;
     box-sizing: border-box;
@@ -75,10 +83,12 @@ header{
     text-align: center;
 }
 .headers-sjrz{
-    width: 102px;
+    width: 72px;
     height: 20px;
+    float: right;
     line-height: 20px;
-       background-color: black;
+    margin-right: -10px;
+    background-color: black;
     border-left: 1px solid #fcfbf9;
     box-sizing: border-box;
     color: #fcfbf9;
@@ -89,8 +99,14 @@ header{
 .body2{
     background-color: #171719;
     width:100%;
-    height: 4500px;
+    height: 5500px;
     margin: 0 auto;
+}
+@media screen and (max-width: 1200px)
+{
+    .body2{
+        width:1200px;
+    }
 }
 nav{
     width: 100%;
@@ -141,149 +157,145 @@ nav{
     line-height: 66px;
 }
 /*导航结束*/
-.img1{
-     position: absolute;
-    z-index: 5;
-    top:746px;
-    left:352px;
-
+.fff{
+      z-index: 5;
+    /*top:450px;*/
+    /*left:352px;*/
+    width:170px;
+    position: relative;
+    height: 38px;
+    border: 3px solid white;
+     background-color: #D852BB;
+    text-align: center;
+    bottom: 120px;
+    left: 360px;
+    line-height: 38px;
 }
-.img1 a img{
-    position:absolute;
-    bottom:150px;
-    margin-left: 0px;
-    /*left:500px;*/
-    height:65px;width: 140px;
+.fff a{
+    text-decoration: none;
+    font-size: 38px;
+    color: white;
 }
 .img{
-    width:100%;
-    height:697px;
-    position: relative;
+   width: 100%;
+    height: 480px;
     margin:0 auto;
 }
 .img img{
-     width:100%;
-    height:697px;
+     width:1200px;
+    display: block;
+    margin: 0 auto;
+    /*height:697px;*/
 }
 .zuobian
 {
+
     width:29px;
     height: 29px;
     position: absolute;
-    right:250px;
-    bottom:50px;
-
-}
-.zuobian a{
+    right:50px;
+    top:620px;
     display: block;
     font-size: 50px;
     color: white;
-}
-.youbian a{
-    display: block;
-    font-size: 50px;
-    color: white;
-}
 
+}
 .youbian{
     width:29px;
     height: 29px;
     position: absolute;
-    right:200px;
-    bottom:50px;
-
+    right:0px;
+    top:620px;
+     display: block;
+    font-size: 50px;
+    color: white;
 }
 .img2{
-    width: 1200px;
+    width: 90%;
     height: 310px;
     margin: 0 auto;
 }
-.img2 img{
-     width: auto;
-    height: 490px;
-    display: block;
-    margin:  0 auto;
-}
+/*.img2 img{*/
+     /*width: auto;*/
+    /*height: 490px;*/
+    /*display: block;*/
+    /*margin:  0 auto;*/
+/*}*/
 .bg2 {
-    width: 100%;
-
+    width: 1200px;
     position: relative;
-    top: 100px;
+    top: 250px;
+    display: block;
+    /*overflow: hidden;*/
+    background-color: black;
     height:490px;
     z-index: 9;
     margin: 0 auto;
-}/*}*/
-.bg2 div{
-   position: relative;
-    z-index: 9;
-    /*height:655px;*/
-    margin: 0 auto;
-    width: 741px;
-}
-.bg2 div img{
-    /*position: relative;*/
-    height:auto;
-    z-index: 9;
-    margin: 0 auto;
-    width: 741px;
-}
-
-
-.bg2 div a img{
-    position: relative;
-    /*margin-right: 50px;*/
-    /*z-index: 9;*/
-    top:-56px;
-    right:-570px;
-    width: 120px;
 }
 .bg3{
-    width:746px;
-    height:676px;
+    width:1200px;
+    /*width:auto;*/
     position:relative;
-    top:10px;
+    top:250px;
     margin:0 auto;
 }
 .bg3 img{
       width:auto;
-    height:676px;
     margin:0 auto;
 }
 .bg4{
-    width:747px;
-    height:624px;
+    width: 1200px;
     margin:0 auto;
     position:relative;
     top:30px;
 }
 .bg4 img{
-      width:747px;
-    height:624px;
+
+  display: block;
     margin:0 auto;
 }
 .bg5{
 
-    width:746px;
-    height:125px;
+    width:1070px;
+    height:170px;
     position: relative;
-    top:30px;
+    top:30px;;
     margin:0 auto;
 }
-.bg5 img{
-      width:746px;
-    height:125px;
-    margin:0 auto;
+.bg5 div{
+    float:left;
+}
+.b5{
+    cursor: pointer;
+    width: 25px;height: 20px;background-color: #C48F1E;position: absolute;top:48%;left: -20px;font-size: 25px;color: white;line-height: 16px;
+    display: none;
+}
+.b6{
+    cursor: pointer;
+    width: 25px;height: 20px;background-color: #000;position: absolute;top:48%;right: 2px;font-size: 25px;color: white;line-height: 16px;
+    display: none;
+}
+.bg6 div div a img:hover{
+    border:2px solid  #D852BB;
+}
+.bg5:hover .b5{
+    display:block;
+}
+.bg5:hover .b6{
+    display:block;
+}
+.bg5 div a{
+    display: block;
+    margin-top: 5px;
+}
+.bg5 div:hover{
+    background-color: #C48F1E;
 }
 .bg6{
     position: relative;
-    top:30px;
-    width:750px;
-    height:379px;
-    margin:0 auto;
-}
-.bg6 img{
-      width:750px;
-    height:379px;
+    top:150px;
+    width:1200px;
+    /*height:379px;*/
     margin:0 auto;
 }
 .bg6 div{
@@ -301,14 +313,14 @@ nav{
 }
 .bg7{
     position:relative;
-    width:747px;
+    width:1200px;
     top: 30px;
-    height:514px;
+    /*height:514px;*/
     margin:0 auto;
 }
 .bg7 img{
-      width:747px;
-    height:514px;
+      width:1200px;
+    display: block;
     margin:0 auto;
 }
 .bg7 div{
@@ -318,20 +330,21 @@ nav{
     top:50px;
 }
 .bg7 div img{
-    width:145px;
-    height:53px;
+    width:245px;
+    height:83px;
     position:absolute;
-    top:302px;
-    left:115px;
+    top:494px;
+    left:187px;
 }
 .bg8{
     position:relative;
     top:30px;
     margin:0 auto;
-    width:239px;
+    width:1200px;
     height:108px;
 }
 .bg8 img{
+    display: block;
     margin:0 auto;
     width:239px;
     height:108px;
@@ -344,38 +357,54 @@ nav{
     height:326px;
     margin:0 auto;
 }
+.d{
+    float:left;width:273px;height:522px;
+}
+.d:hover .d2{
+    display: block;
+}
+.d2{
+    position:absolute;top:0px;width: 273px;height: 522px;background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    display: none;
+}
 footer{
     position:relative;
     top:30px;
     width:100%;
-    height:430px;
+    height:330px;
+    background-color: black;
 
 }
 .f1{
-    height:122px;
-    width:650px;
-    margin:0 auto;
-    display: flex;
-    flex-wrap: nowrap;
+    height:42px;
+    width:690px;
+    margin:40px auto;
+    /*display: flex;*/
+    /*flex-wrap: nowrap;*/
     line-height: 122px;
     text-align: center;
-    justify-content: space-between;
+    /*justify-content: space-around;*/
 }
 .f1 div{
+    float: left;
     color:#a3a0a0;
-    width:140px;
+    width:126px;
+    /*padding-right: 12px;*/
     font-size: 18px;
 }
 .f1 div a{
     color:#a3a0a0;
 }
 .f2{
-    width:450px;
+
     margin:0 auto;
-    height:150px;
-    padding-top:50px;
+    height:150px;;
     text-align: center;
-    border: 1px solid #363234;
+}
+.f2 img{
+    display: block;
+    margin: 0 auto;
 }
 .f2 p{
     height:25px;
@@ -392,7 +421,8 @@ footer{
     top:150px;
 }
 .f3{
-    height:100px;
+
+    height:30px;
     color:#a3a0a0;
     font-size: 14px;
     margin:0 auto;
@@ -401,7 +431,7 @@ footer{
     width:1200px;
 }
 .f4{
-    height:100px;
+    height:30px;
     color:#a3a0a0;
     font-size: 14px;
     margin:0 auto;
