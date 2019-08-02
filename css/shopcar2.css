@@ -153,15 +153,89 @@ main{
 }
 .left-section{
     width:800px;
-    height:1100px;
+    height:1260px;
     float:left;
-
+}
+.danxuan-geshi{
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+.danxuan-geshi[type="radio"] + label::before {
+    content: "\a0"; /*不换行空格*/
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    width: 1em;
+    height: 1em;
+    margin-right: .4em;
+    border-radius: 50%;
+    border: 1px solid #E78FDA;
+    text-indent: .15em;
+    line-height: 1;
+}
+.danxuan-geshi[type="radio"]:checked + label::before {
+    background-color: #E78FDA;
+    background-clip: content-box;
+    padding: .2em;
 }
 .ps-address{
     width:750px;
     height:50px;
     line-height:50px;
-
+}
+.address-kuang{
+    width:750px;
+    height:250px;
+    border:1px solid #E9E8E9;
+}
+.address-moren{
+    width:auto;
+    height:90px;
+    border:1px solid #E9E8E9;
+}
+.moren-name{
+    width:165px;
+    height:88px;
+    float:left;
+    line-height:88px;
+    padding-left:30px;
+}
+.moren-dizhi{
+    width:461px;
+    height:78px;
+    float:left;
+    padding:5px 0 5px 5px;
+}
+.shanchu-edit{
+    width:120px;
+    height:88px;
+    float:left;
+    text-align:center;
+    line-height:40px;
+}
+.icon-shanchu{cursor:pointer;}
+.edit{
+    width:50px;
+    height:25px;
+    font-size:13px;
+    text-align:center;
+    line-height:25px;
+    margin:auto;
+    color:#fff;
+    background:#E78FDA;
+    border-radius:15px;
+    cursor:pointer;
+}
+.address-xinzeng{
+    width:auto;
+    height:90px;
+    border:1px solid #E9E8E9;
+}
+.address-shouqi{
+    width:auto;
+    height:70px;
+    line-height:70px;
+    padding-left:60px;
 }
 .ps-add{
     font-size:16px;
@@ -174,9 +248,14 @@ main{
     border-bottom:1px solid #E78FDA;
     float:right;
 }
+.new-add:hover{
+    color:#E78FDA;
+    border-color:#fff;
+}
 .new-bianse{
     color:#E78FDA;
     border-bottom:1px solid #E78FDA;
+    cursor:pointer;
 }
 .new-bianse2{
     color:#000;
@@ -203,6 +282,32 @@ main{
     height:20px;
     float:left;
     margin-top:9px;
+}
+.check-box[type="checkbox"]{
+    -webkit-appearance:none;
+    width:20px;
+    height:20px;
+    border:1px solid #A3A2A3;
+    outline:none;
+}
+.check-box[type="checkbox"]:checked{
+    background-color:#a3a2a3;
+    background-clip:content-box;
+    padding:.2em;
+    outline:none;
+}
+
+.shezhi-address{
+    width:300px;
+    height:60px;
+    line-height:60px;
+    border:1px solid #fff;
+}
+.checkbox-weizhi{
+    width:40px;
+    height:58px;
+    line-height:70px;
+    float:left;
 }
 .return-add{
     width:400px;
@@ -246,6 +351,28 @@ main{
     border:1px solid #000;
     background:#F9F9F9;
 }
+.putongda{
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+.putongda[type="radio"] + label::before {
+    content: "\a0"; /*不换行空格*/
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    width: 1em;
+    height: 1em;
+    margin-right: .4em;
+    border-radius: 50%;
+    border: 1px solid #E78FDA;
+    text-indent: .15em;
+    line-height: 1;
+}
+.putongda[type="radio"]:checked + label::before {
+    background-color: #E78FDA;
+    background-clip: content-box;
+    padding: .2em;
+}
 .mian-yunfei{
     float:right;
     margin-right:20px;
@@ -259,6 +386,28 @@ main{
     border:1px solid #000;
     background:#F9F9F9;
 }
+.zhifu-geshi{
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+.zhifu-geshi[type="radio"] + label::before {
+    content: "\a0"; /*不换行空格*/
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    width: 1em;
+    height: 1em;
+    margin-right: .4em;
+    border-radius: 50%;
+    border: 1px solid #E78FDA;
+    text-indent: .15em;
+    line-height: 1;
+}
+.zhifu-geshi[type="radio"]:checked + label::before {
+    background-color: #E78FDA;
+    background-clip: content-box;
+    padding: .2em;
+}
 .fapiao{
     margin-top:30px;
 }
@@ -270,6 +419,9 @@ main{
     background:#000;
     color:#fff;
     margin-top:30px ;
+}
+.queren-dindan a{
+    color: white!important;
 }
 .right-section{
     width:350px;
@@ -403,7 +555,7 @@ footer{
     margin-top: 32px;
     text-align: center;
 }
-
-
+.icon-umidd17{color:#02AAFD;}
+.icon-weixinzhifu{color:#08BB06;}
 
 

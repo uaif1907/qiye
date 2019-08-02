@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "苹方 常规";
+}
+/*整体开始*/
+.z-boxs{
+    width: 100%;
+    height: 100%;
+    background: red;
+}
+/*侧导航开始*/
+.z-box{
+    width: 1200px;
+    height: 1080px;
+    background: pink;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.z-box-left{
+    width: 300px;
+    height: 1080px;
+    background: #fffeff;
+}
+.left-top{
+    width: 300px;
+    height: 80px;
+}
+.left-bottom{
+    width: 300px;
+    height: 770px;
+    background: #fffeff;
+}
+.z-box-left .left-bottom li{
+    width: 300px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    cursor: pointer;
+    position: relative;
+}
+.z-box-left .left-bottom li a{
+    font-size: 16px;
+    color: #686768;
+    display: block;
+    text-align: center;
+}
+.z-box-left .left-bottom li i{
+    position: absolute;
+    right: 94px;
+    bottom: 0;
+    display: block;
+    color: #cccbcc;
+    float: right;
+    font-size: 12px;
+}
+.left-bottomxp{
+    background: #fcf2fb;
+}
+.z-box-left .left-bottom li:hover{
+    background: #de63d1;
+}
+.z-box-left .left-bottom li:hover a{
+    color: #ffffff;
+}
+.z-box-left .left-bottom li:hover i{
+    transform: rotate(90deg);
+    transition: all 0.2s linear;
+}
+.left-bottomfh{
+    background: #de63d1;
+}
+.left-bottomdfh{
+    color: #ffffff!important;
+}
+/*侧导航结束*/
+.z-box-right{
+    width: 900px;
+    height: 1080px;
+    background: #fdf6fc;
+}
+/*右上头部开始*/
+.right-top{
+    width: 900px;
+    height: 80px;
+    background: #fcfbfc;
+}
+.right-tops{
+    width: 610px;
+    height: 80px;
+    float: right;
+    padding-top: 16px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+.right-topt{
+    width: 340px;
+    height: 48px;
+    position: relative;
+    cursor: pointer;
+}
+.right-tops .right-topt input{
+    width: 340px;
+    height: 48px;
+    border-radius: 50px;
+    background: #efeeef;
+    border: none;
+    margin: auto 0;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+.right-tops .right-topt i{
+    position: absolute;
+    left: 10px;
+    top: 0;
+    display: block;
+    line-height: 48px;
+    font-size: 30px;
+    color: #a7a7a7;
+    cursor: pointer;
+}
+.right-topld{
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+.right-top .right-topld i{
+    color: #de63d1;
+    font-size: 28px;
+    text-align: center;
+    display: block;
+    line-height: 48px;
+}
+.right-tx{
+    width: 48px;
+    height: 48px;
+    background: url("../img.png") no-repeat 0 0;
+    border: 1px solid #de63d1;
+    border-radius: 50%;
+    margin: 0 14px;
+    box-sizing: border-box;
+}
+.right-tx a{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: block;
+}
+.right-name{
+    width: 90px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.right-top .right-tops .right-name span{
+    font-size: 14px;
+    color: #949394;
+    line-height: 48px;
+}
+.right-top .right-tops .right-name a i{
+    color: #949394;
+
+    line-height: 48px;
+
+}
+/*右上头部结束*/
+
+
+
+/*整体结束*/
