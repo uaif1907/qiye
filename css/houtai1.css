@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "苹方 常规";
+}
+/*整体开始*/
+.z-boxs{
+    width: 100%;
+    height: 100%;
+}
+/*侧导航开始*/
+.z-box{
+    width: 100%;
+    height: 1080px;
+    background: pink;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 300px;
+    box-sizing: border-box;
+    position: relative;
+}
+.z-box-left{
+    width: 300px;
+    height: 1080px;
+    background: #fffeff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.left-top{
+    width: 300px;
+    height: 80px;
+}
+.left-bottom{
+    width: 300px;
+    height: 770px;
+    background: #fffeff;
+}
+.z-box-left .left-bottom li{
+    width: 300px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    cursor: pointer;
+    position: relative;
+}
+.z-box-left .left-bottom li a{
+    font-size: 16px;
+    color: #686768;
+    display: block;
+    text-align: center;
+}
+.z-box-left .left-bottom li i{
+    position: absolute;
+    right: 94px;
+    bottom: 0;
+    display: block;
+    color: #cccbcc;
+    float: right;
+    font-size: 12px;
+}
+.icon-gengduo-2{
+    font-size: 16px;
+}
+.left-bottomxp{
+    background: #fcf2fb;
+}
+.z-box-left .left-bottom li:hover{
+    background: #de63d1;
+}
+.z-box-left .left-bottom li:hover a{
+    color: #ffffff;
+}
+.z-box-left .left-bottom li:hover i{
+    transform: rotate(90deg);
+    transition: all 0.2s linear;
+}
+/*.left-bottomfh{*/
+/*    background: #de63d1;*/
+/*}*/
+/*.left-bottomdfh{*/
+/*    color: #ffffff!important;*/
+/*}*/
+/*侧导航结束*/
+.z-box-right{
+    width: 100%;
+    height: 1080px;
+    background: #fdf6fc;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+/*右上头部开始*/
+.right-top{
+    width: auto;
+    height: 80px;
+    background: #fcfbfc;
+}
+.right-tops{
+    width: 610px;
+    height: 80px;
+    float: right;
+    padding-top: 16px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+.right-topt{
+    width: 340px;
+    height: 48px;
+    position: relative;
+    cursor: pointer;
+}
+.right-tops .right-topt input{
+    width: 340px;
+    height: 48px;
+    border-radius: 50px;
+    background: #efeeef;
+    border: none;
+    margin: auto 0;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+.right-tops .right-topt i{
+    position: absolute;
+    left: 10px;
+    top: 0;
+    display: block;
+    line-height: 48px;
+    font-size: 30px;
+    color: #a7a7a7;
+    cursor: pointer;
+}
+.right-topld{
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+.right-top .right-topld i{
+    color: #de63d1;
+    font-size: 28px;
+    text-align: center;
+    display: block;
+    line-height: 48px;
+}
+.right-tx{
+    width: 48px;
+    height: 48px;
+    background: url("../img/tx.png") no-repeat 0 0;
+    border: 1px solid #de63d1;
+    border-radius: 50%;
+    margin: 0 14px;
+    box-sizing: border-box;
+}
+.right-tx a{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: block;
+}
+.right-name{
+    width: 90px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.right-top .right-tops .right-name span{
+    font-size: 14px;
+    color: #949394;
+    line-height: 48px;
+}
+.right-top .right-tops .right-name a i{
+    color: #949394;
+    line-height: 48px;
+}
+/*右上头部结束*/
+.right-bottom{
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 10px;
+}
+.boxrb{
+    width: 100%;
+    height: 400px;
+    display: flex;
+
+    justify-content: space-between;
+
+}
+.bottom-box1{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    margin-right: 5px;
+}
+.jr{
+    display: block;
+    margin-top:22px;
+    margin-left:22px;
+    font-size: 16px;
+    color: #5a5a5a;
+    font-weight: 600;
+}
+.bb2{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.bottom-box2{
+    width: 100%;
+    height:350px;
+    background-color: white;
+    margin-right: 5px;
+    box-sizing: border-box;
+}
+.yuan{
+    height:160px ;
+    width: 100%;
+}
+.yuan1{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border:2px solid #de63d1;
+    margin:  0 auto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 140px;
+    text-align: center;
+   margin-top: 35px;
+}
+.shiming{
+    width: 95px;
+    height:45px ;
+    border-left: 1px solid #de63d1;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 5px;
+    float: left;
+    line-height:25px ;
+    font-weight: 600;
+    color: #5a5a5a;
+}
+.shiming1{
+     width: 95px;
+    height:45px ;
+    border-left: 1px solid #de63d1;
+    font-size: 12px;
+    margin-left: 28px;
+    margin-top: 5px;
+    float: left;
+    line-height:25px ;
+    font-weight: 600;
+    color: #5a5a5a;
+}
+.box1-foot{
+    width:100%;
+    height: 70px;
+    background-color: #de63d1;
+    margin-top: 92px;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 70px;
+    color: white;
+    padding-left: 20px;
+    position: relative;
+    box-sizing: border-box;
+}
+.box1-foot-box{
+    position: absolute;
+    top: -20px;
+    right: 20px;
+    width: 100px;
+    height: 45px;
+    background-color: #fe0202;
+    text-align: center;
+    line-height:45px ;
+    font-size:20px;
+    font-weight: 400;
+
+}
+.bottom-box2-title{
+    width: 100%;
+    height: 70px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+.shu2{
+    width: 3px;
+    height: 10px;
+    background-color: #de63d1;
+    float: left;
+    margin-top: 7px;
+   border-radius: 30px;
+
+}
+.xltj{
+    width:100px;
+     font-size: 18px;
+    font-weight: 600;
+    color: #5a5a5a;
+    text-align: center;
+    float: left;
+}
+.zuori{
+    width: 70px;
+     font-size: 12px;
+     font-weight: 600;
+    color: #5a5a5a;
+    float: right;
+    margin-top: 7px;
+}
+.zhengfangxing{
+    width: 5px;
+    height:5px;
+    background-color: #de63d1;
+    border-radius: 20px;
+    margin-bottom: 3px;
+    display: inline-block;
+}
+.tutu{
+    width: 100%;
+    height: 280px;
+    background-color: #de63d1;
+    box-sizing: border-box;
+}
+.tutu img{
+    width: 100%;
+    height: 100%;
+}
