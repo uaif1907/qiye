@@ -190,6 +190,7 @@
     height: 979px;
     background: white;
     overflow: hidden;
+    position: relative;
 }
 .z-box .right-botton ul li{
     width: auto;
@@ -279,6 +280,14 @@
 }
 .xiugai{
     width: 24px;
+    font-size: 12px;
+    color: #f93132;
+    line-height: 31px;
+    cursor: pointer;
+}
+.lbt{
+    position: absolute;
+    width: 100%;
 }
 .right-er1{
     width: 50px;
@@ -320,6 +329,7 @@
     line-height: 30px;
     display: block;
     border-radius: 6px;
+    cursor: pointer;
 }
 .zj2{
     width: 32px;
@@ -330,6 +340,7 @@
     display: block;
     border: 1px solid #b5b5b5;
     border-radius: 6px;
+    cursor: pointer;
 }
 .zj3{
     color: #ffffff;
@@ -348,13 +359,18 @@
     line-height: 34px;
     color: #666666;
 }
+.libs3{
+    position: absolute;
+    bottom: 0;
+    width: 100%!important;
+}
 /*右下结束*/
 /*遮罩开始*/
 .zhezhao{
     width: 100%;
     height: 100%;
     background: rgba(0,0,0,0.6);
-    display: block;
+    display: none;
     position: absolute;
     top: 0;
     left: 0;
@@ -408,9 +424,11 @@
 }
 .qr{
     margin-left: -20px;
+    cursor: pointer;
 }
 .qx{
     background: #de63d1!important;
+    cursor: pointer;
 }
 /*遮罩结束*/
 
